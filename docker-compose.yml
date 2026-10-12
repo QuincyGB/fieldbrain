@@ -1,0 +1,10 @@
+services:
+  fieldbrain:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      # Uploaded manuals/logs persist across container rebuilds.
+      - ./data/uploads:/code/data/uploads
