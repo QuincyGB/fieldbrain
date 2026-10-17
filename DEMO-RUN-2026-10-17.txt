@@ -1,0 +1,29 @@
+==============================================================================
+TECH: The rooftop unit keeps short-cycling and shows fault code E47. What should I check first?
+[answer | mode=demo | confidence=10.739]
+From maintenance-log-northgate.md (2026-03-14 — RTU-9000, fault E47 (compressor short-cycling)):
+
+Callout: office staff reported the unit "starting and stopping every couple of
+minutes," display showing E47. Found the condenser coil heavily matted with lint
+from the workshop extraction vent nearby. Washed the coil inside-out, restored
+power, and observed three full cooling cycles with normal run times. Fault did not
+recur. Recommendation recorded on the work order: wash the condenser coil every
+spring for this site because of the lint load, instead of the standard schedule.
+Closed: resolved on
+CHECKLIST:
+  - Lock out the unit, remove the condenser fan grille, and inspect the condenser coil. If the fins are matted with dirt or lint, wash the coil from the inside out with low-pressure water and a coil-safe cleaner.
+  - Check the return-air filters and the supply-fan belt. Replace clogged filters; tighten or replace a slipping belt.
+  - Restore power, run the unit in cooling, and watch one full cycle. If the compressor still stops within 2 minutes, attach gauges and record suction and discharge pressures at the moment of cut-out.
+  - If discharge pressure spikes just before cut-out, suspect the coil or the high-pressure switch. Jumper-test the high-pressure s
+  - Dirty condenser coil. A matted coil raises head pressure until the high-pressure switch opens, stops the compressor, then resets as pressure falls. This is the most common cause of E47 on this unit.
+  - Low refrigerant level. A slow leak drops suction pressure until the low-pressure switch cuts the compressor out; pressure recovers at rest and the cycle repeats.
+  - Restricted airflow. Clogged filters or a slipping fan belt starve the evaporator, dropping suction pressure the same way.
+  - Faulty high-pressure switch. A switch that opens below its rated cut-out pressure will cycle the compressor even with a clean coil and correct charge.
+SOURCES: manual-rtu9000-rooftop-unit.md / 3. Fault code table (summary), manual-rtu9000-rooftop-unit.md / 4. Fault E47 — Compressor short-cycling, maintenance-log-northgate.md / 2026-03-14 — RTU-9000, fault E47 (compressor short-cycling), manual-ah40-air-handler.md / 5. Fault codes (summary)
+
+==============================================================================
+TECH: What refrigerant type does the RTU-9000 use, and what is its factory charge weight in kilograms?
+[handoff | mode=demo | confidence=5.906]
+HAND-OFF SUMMARY: Technician question: "What refrigerant type does the RTU-9000 use, and what is its factory charge weight in kilograms?" — searched 3 document(s) / 23 sections. Best match scored 5.906 with question-term coverage 0.532 — below the confidence gate, so no grounded answer exists in the library.
+ROUTE: Route to a senior technician / dispatcher with this summary attached to the work order, and add the missing document (spec sheet, nameplate photo, or vendor manual) to the library so the next tech gets an answer.
+
