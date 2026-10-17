@@ -54,13 +54,13 @@ cover-fieldbrain.png (1920×1080, in this folder and in the GitHub repo).
 
 - **AMD Developer Cloud activation email: NOT received.** Gmail search
   (`in:anywhere`, after Oct 14) over AMD / "Developer Cloud" / LabLab
-  mail found exactly five messages: the Oct 15 "Your Free AMD Cloud
-  Credits Are Waiting" email (pre-claim), an Oct 15 LabLab Discord-connect
-  notice, an Oct 15 AMD profile-completeness marketing email, an Oct 15
-  LabLab newsletter, and the Oct 16 LabLab ACT III registration
-  confirmation. **No activation message has arrived since the credits
-  claim was submitted on Oct 16** — so the offline-honest copy above
-  governs, exactly as SUBMISSION-OFFLINE.md prescribes.
+  mail found exactly five messages (subjects/dates verified from message
+  headers): the Oct 15 "Your Free AMD Cloud Credits Are Waiting" email
+  (pre-claim) and four AMD Registration "One-time verification code"
+  emails from Oct 15 evening EDT (the claim login flow). **No activation
+  message has arrived since the credits claim was submitted on Oct 16**
+  — so the offline-honest copy above governs, exactly as
+  SUBMISSION-OFFLINE.md prescribes.
 - **Evolus event code: NOT found.** A Gmail search for "evolus"
   (in:anywhere, full-text) returned zero messages. No event code exists
   in email, and no Evolus workspace exists — the Evolus partner-track
